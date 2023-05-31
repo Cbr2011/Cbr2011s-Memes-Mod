@@ -1,0 +1,7 @@
+{
+  "parent": "memes:custom/emptypringles",
+  "textures": {
+    "0": "memes:block/empty_texture",
+    "particle": "memes:item/emptytexture"
+  }
+}

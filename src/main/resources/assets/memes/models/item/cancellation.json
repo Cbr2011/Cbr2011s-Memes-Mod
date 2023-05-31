@@ -1,0 +1,7 @@
+{
+  "parent": "memes:custom/cancellation",
+  "textures": {
+    "0": "memes:block/phonescreen",
+    "particle": "memes:item/phonescreen"
+  }
+}

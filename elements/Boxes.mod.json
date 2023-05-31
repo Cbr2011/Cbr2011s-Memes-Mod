@@ -1,0 +1,363 @@
+{
+  "_fv": 43,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 410,
+    "height": 223,
+    "inventoryOffsetX": -110,
+    "inventoryOffsetY": 26,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_amazon_boxes",
+          "text": {
+            "fixedValue": "Amazon Box Software"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 21,
+          "y": 16
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_box_one",
+          "text": {
+            "fixedValue": "Ship items to no where"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 256,
+          "y": 125
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 0,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 243,
+          "y": 144
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 1,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": false,
+          "x": 263,
+          "y": 144
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 2,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": false,
+          "x": 283,
+          "y": 144
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 3,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": false,
+          "x": 304,
+          "y": 144
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 4,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": false,
+          "x": 326,
+          "y": 143
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 5,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": false,
+          "x": 349,
+          "y": 143
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 6,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": false,
+          "x": 374,
+          "y": 144
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_your_inv",
+          "text": {
+            "fixedValue": "Your inv"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 77,
+          "y": 126
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_empty",
+          "text": {
+            "fixedValue": "-"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 348,
+          "y": 21
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_empty1",
+          "text": {
+            "fixedValue": "[_]"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 361,
+          "y": 20
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_x",
+          "text": "X",
+          "onClick": {
+            "name": "CloseBoxes"
+          },
+          "width": 30,
+          "height": 20,
+          "x": 384,
+          "y": 15
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_100",
+          "text": {
+            "fixedValue": "1.1.0"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 22,
+          "y": 29
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_nuke_items",
+          "text": {
+            "fixedValue": "NUKE ITEMS - This deletes the 3 items put in the slots below"
+          },
+          "color": {
+            "value": -52480,
+            "falpha": 0.0
+          },
+          "x": 75,
+          "y": 41
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 7,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 181,
+          "y": 58
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 8,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 203,
+          "y": 59
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 9,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 227,
+          "y": 58
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_nuke",
+          "text": "NUKE!",
+          "onClick": {
+            "name": "Nuke"
+          },
+          "width": 51,
+          "height": 20,
+          "x": 188,
+          "y": 84
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_about",
+          "text": "About",
+          "onClick": {
+            "name": "OpenAboutBoxes"
+          },
+          "width": 51,
+          "height": 20,
+          "x": 350,
+          "y": 201
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_ship",
+          "text": "SHIP",
+          "onClick": {
+            "name": "ShipItems"
+          },
+          "width": 46,
+          "height": 20,
+          "x": 290,
+          "y": 167
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

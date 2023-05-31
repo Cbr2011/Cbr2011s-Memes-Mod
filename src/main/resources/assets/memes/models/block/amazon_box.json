@@ -1,0 +1,9 @@
+{
+  "parent": "memes:custom/boxes",
+  "textures": {
+    "all": "memes:block/box",
+    "particle": "memes:block/box",
+    "0": "memes:block/box"
+  },
+  "render_type": "solid"
+}

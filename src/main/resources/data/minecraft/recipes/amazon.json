@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:granite"
+    },
+    "1": {
+      "item": "minecraft:granite"
+    },
+    "2": {
+      "item": "minecraft:granite"
+    },
+    "3": {
+      "item": "minecraft:granite"
+    },
+    "4": {
+      "item": "minecraft:granite"
+    },
+    "5": {
+      "item": "minecraft:granite"
+    },
+    "6": {
+      "item": "minecraft:granite"
+    },
+    "7": {
+      "item": "minecraft:granite"
+    },
+    "8": {
+      "item": "minecraft:granite"
+    }
+  },
+  "result": {
+    "item": "memes:amazon_box",
+    "count": 1
+  }
+}

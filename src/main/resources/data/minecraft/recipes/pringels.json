@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "   ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:pumpkin_seeds"
+    },
+    "1": {
+      "item": "minecraft:pumpkin_seeds"
+    },
+    "2": {
+      "item": "minecraft:pumpkin_seeds"
+    },
+    "7": {
+      "item": "minecraft:red_wool"
+    }
+  },
+  "result": {
+    "item": "memes:empty_pringles",
+    "count": 1
+  }
+}

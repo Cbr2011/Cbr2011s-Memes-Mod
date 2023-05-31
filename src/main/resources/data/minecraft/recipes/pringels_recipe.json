@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "memes:empty_pringles"
+    }
+  },
+  "result": {
+    "item": "memes:pringles",
+    "count": 1
+  }
+}

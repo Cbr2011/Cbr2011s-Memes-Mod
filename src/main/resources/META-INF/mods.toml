@@ -1,0 +1,27 @@
+modLoader="javafml"
+loaderVersion="[45,)"
+license="Academic Free License v3.0"
+
+[[mods]]
+modId="memes"
+version="1.1.0"
+displayName="Cbr 2011's Memes Mod"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+displayURL="https://mcreator.net"
+updateJSONURL="https://api.modrinth.com/updates/JkZ524XM/forge_updates.json"
+logoFile="logo.png"
+authors="Cbr 2011, Made with MCreator"
+description='''
+A mod that adds unnecessary things from companies, 21st Century things, and food companies 
+'''
+
+[[dependencies.memes]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.4]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

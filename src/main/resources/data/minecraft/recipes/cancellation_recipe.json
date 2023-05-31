@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:crying_obsidian"
+    },
+    "1": {
+      "item": "memes:life_chart"
+    },
+    "2": {
+      "item": "minecraft:powder_snow_bucket"
+    }
+  },
+  "result": {
+    "item": "memes:cancellation",
+    "count": 1
+  }
+}

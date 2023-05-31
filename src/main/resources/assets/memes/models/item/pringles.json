@@ -1,0 +1,7 @@
+{
+  "parent": "memes:custom/pringles",
+  "textures": {
+    "0": "memes:block/texture",
+    "particle": "memes:item/texture"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "knife",
+        "1": "handle"
+      },
+      "name": "default"
+    }
+  }
+}

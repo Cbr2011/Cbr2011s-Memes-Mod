@@ -1,0 +1,9 @@
+{
+  "parent": "memes:custom/life_chart",
+  "textures": {
+    "all": "memes:block/chart",
+    "particle": "memes:block/chart",
+    "0": "memes:block/chart"
+  },
+  "render_type": "solid"
+}

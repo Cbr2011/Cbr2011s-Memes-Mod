@@ -1,0 +1,34 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "block/phonescreen",
+		"particle": "block/phonescreen"
+	},
+	"elements": [
+		{
+			"from": [7, 4, 5],
+			"to": [9, 13, 10],
+			"faces": {
+				"north": {"uv": [0, 4.5, 1, 9], "texture": "#0"},
+				"east": {"uv": [0, 0, 2.5, 4.5], "texture": "#0"},
+				"south": {"uv": [1, 4.5, 2, 9], "texture": "#0"},
+				"west": {"uv": [2.5, 0, 5, 4.5], "texture": "#0"},
+				"up": {"uv": [3, 7, 2, 4.5], "texture": "#0"},
+				"down": {"uv": [4, 4.5, 3, 7], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 1.25, 0]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-180, -10.25, 180],
+			"translation": [0, 0, 0.5]
+		},
+		"gui": {
+			"rotation": [-10.95, 74.7, 40]
+		}
+	}
+}

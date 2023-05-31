@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "0",
+    "1"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:black_wool"
+    },
+    "1": {
+      "item": "minecraft:white_wool"
+    }
+  },
+  "result": {
+    "item": "memes:life_chart",
+    "count": 1
+  }
+}

@@ -1,0 +1,424 @@
+{
+  "mod_elements": [
+    {
+      "name": "London",
+      "type": "tool",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "london",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/memes/models/item/london.json",
+          "src/main/java/cbrmods/memes/item/LondonItem.java"
+        ]
+      }
+    },
+    {
+      "name": "AmazonBox",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amazon_box",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/memes/models/block/amazon_box.json",
+          "src/main/resources/assets/memes/models/item/amazon_box.json",
+          "src/main/java/cbrmods/memes/block/AmazonBoxBlock.java",
+          "src/main/resources/assets/memes/blockstates/amazon_box.json"
+        ]
+      }
+    },
+    {
+      "name": "WeridMinecraft",
+      "type": "tab",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "werid_minecraft",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Boxes",
+      "type": "gui",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boxes",
+      "metadata": {
+        "files": [
+          "src/main/java/cbrmods/memes/world/inventory/BoxesMenu.java",
+          "src/main/java/cbrmods/memes/client/gui/BoxesScreen.java",
+          "src/main/java/cbrmods/memes/network/BoxesButtonMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "OpenBox",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_box",
+      "metadata": {
+        "files": [
+          "src/main/java/cbrmods/memes/procedures/OpenBoxProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CloseBoxes",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "close_boxes",
+      "metadata": {
+        "files": [
+          "src/main/java/cbrmods/memes/procedures/CloseBoxesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LifeChart",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "life_chart",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/memes/models/block/life_chart.json",
+          "src/main/resources/assets/memes/blockstates/life_chart.json",
+          "src/main/resources/assets/memes/models/item/life_chart.json",
+          "src/main/java/cbrmods/memes/block/LifeChartBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Cancellation",
+      "type": "tool",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cancellation",
+      "metadata": {
+        "files": [
+          "src/main/java/cbrmods/memes/item/CancellationItem.java",
+          "src/main/resources/assets/memes/models/item/cancellation.json"
+        ]
+      }
+    },
+    {
+      "name": "EmptyPringles",
+      "type": "tool",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "empty_pringles",
+      "metadata": {
+        "files": [
+          "src/main/java/cbrmods/memes/item/EmptyPringlesItem.java",
+          "src/main/resources/assets/memes/models/item/empty_pringles.json"
+        ]
+      }
+    },
+    {
+      "name": "Pringles",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pringles",
+      "metadata": {
+        "files": [
+          "src/main/java/cbrmods/memes/item/PringlesItem.java",
+          "src/main/resources/assets/memes/models/item/pringles.json"
+        ]
+      }
+    },
+    {
+      "name": "Pringels",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pringels",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipes/pringels.json"
+        ]
+      }
+    },
+    {
+      "name": "Amazon",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amazon",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipes/amazon.json"
+        ]
+      }
+    },
+    {
+      "name": "PringelsRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pringels_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipes/pringels_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "LondonRecipe",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "london_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipes/london_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CancellationRecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cancellation_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipes/cancellation_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "LifeRecipe",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "life_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipes/life_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Nuke",
+      "type": "procedure",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nuke",
+      "metadata": {
+        "files": [
+          "src/main/java/cbrmods/memes/procedures/NukeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AboutBoxes",
+      "type": "gui",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "about_boxes",
+      "metadata": {
+        "files": [
+          "src/main/java/cbrmods/memes/world/inventory/AboutBoxesMenu.java",
+          "src/main/java/cbrmods/memes/network/AboutBoxesButtonMessage.java",
+          "src/main/java/cbrmods/memes/client/gui/AboutBoxesScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "OpenAboutBoxes",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_about_boxes",
+      "metadata": {
+        "files": [
+          "src/main/java/cbrmods/memes/procedures/OpenAboutBoxesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ShipItems",
+      "type": "procedure",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ship_items",
+      "metadata": {
+        "files": [
+          "src/main/java/cbrmods/memes/procedures/ShipItemsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "gui.mcpain.about_boxes.label_sends_packages_to_the_far_lands": "Sends packages to the Far Lands",
+      "gui.mcpain.about_boxes.button_close": "Close",
+      "gui.memes.about_boxes.label_amazon_box_software": "Amazon Box Software",
+      "gui.mcpain.boxes.button_x": "X",
+      "item.memes.pringles": "Pringles",
+      "gui.memes.boxes.label_nuke_items": "NUKE ITEMS - This deletes the 3 items put in the slots below",
+      "gui.mcpain.boxes.label_empty": "-",
+      "gui.memes.about_boxes.button_close": "Close",
+      "gui.mcpain.about_boxes.label_110": "1.1.0",
+      "gui.memes.boxes.label_your_inv": "Your inv",
+      "gui.memes.boxes.label_empty": "-",
+      "gui.mcpain.about_boxes.label_amazon_box_software": "Amazon Box Software",
+      "item_group.mcpain.werid_minecraft": "Minecraft PAIN",
+      "item.mcpain.cancellation": "Cancellation",
+      "item.memes.london": "london",
+      "gui.mcpain.boxes.label_box_one": "Ship items to no where",
+      "gui.memes.boxes.label_box_one": "Ship items to no where",
+      "gui.memes.boxes.button_nuke": "NUKE!",
+      "gui.memes.boxes.label_100": "1.1.0",
+      "gui.memes.boxes.button_x": "X",
+      "gui.mcpain.boxes.button_ship": "SHIP",
+      "gui.memes.about_boxes.label_110": "1.1.0",
+      "gui.mcpain.boxes.label_amazon_boxes": "Amazon Box Software",
+      "gui.mcpain.about_boxes.label_this_software_is_not_made_by_ama": "This program is NOT made by Amazon",
+      "item.mcpain.empty_pringles": "Empty Pringles",
+      "gui.memes.boxes.button_about": "About",
+      "item.memes.empty_pringles": "Empty Pringles",
+      "block.mcpain.amazon_box": "Amazon Box",
+      "gui.mcpain.boxes.label_your_inv": "Your inv",
+      "gui.mcpain.boxes.button_about": "About",
+      "gui.mcpain.boxes.label_empty1": "[_]",
+      "gui.mcpain.boxes.button_nuke": "NUKE!",
+      "gui.memes.boxes.label_amazon_boxes": "Amazon Box Software",
+      "block.memes.life_chart": "Life Chart",
+      "item.mcpain.london": "london",
+      "gui.mcpain.boxes.label_100": "1.1.0",
+      "item.memes.cancellation": "Cancellation",
+      "item_group.memes.werid_minecraft": "Minecraft PAIN",
+      "gui.mcpain.boxes.label_nuke_items": "NUKE ITEMS - This deletes the 3 items put in the slots below",
+      "gui.memes.boxes.button_ship": "SHIP",
+      "block.mcpain.life_chart": "Life Chart",
+      "item.mcpain.pringles": "Pringles",
+      "block.memes.amazon_box": "Amazon Box",
+      "gui.memes.boxes.label_empty1": "[_]",
+      "gui.memes.about_boxes.label_this_software_is_not_made_by_ama": "This program is NOT made by Amazon",
+      "gui.memes.about_boxes.label_sends_packages_to_the_far_lands": "Sends packages to the Far Lands"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "memes",
+    "modName": "Cbr 2011\u0027s Memes Mod",
+    "version": "1.1.0",
+    "description": "A mod that adds unnecessary things from companies, 21st Century things, and food companies ",
+    "author": "Cbr 2011, Made with MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "updateURL": "https://api.modrinth.com/updates/JkZ524XM/forge_updates.json",
+    "modPicture": "memes",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.4",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "cbrmods.memes",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300217118
+}
